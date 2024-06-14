@@ -1,9 +1,9 @@
-interface Iperson {
+interface IPerson {
   name: string;
   age: number;
 }
 
-const person: Iperson = {
+const person: IPerson = {
   name: "John",
   age: 30,
 };
