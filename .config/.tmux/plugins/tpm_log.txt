@@ -1,0 +1,113 @@
+[2024-06-15 03:20:15.437]	 List of discovered tpm plugins: 
+[2024-06-15 03:20:15.453]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-15 03:20:15.487]	 Installing "tmux-sensible"
+[2024-06-15 03:20:15.487]	 Installing "tmux-yank"
+[2024-06-15 03:20:15.489]	 Installing "catppuccin-tmux"
+[2024-06-15 03:20:15.489]	 Installing "tmux-continuum"
+[2024-06-15 03:20:15.489]	 Already installed "tpm"
+[2024-06-15 03:20:15.489]	 Installing "tmux-resurrect"
+[2024-06-15 03:20:15.489]	 Installing "tmux-sessionx"
+[2024-06-15 03:20:15.490]	 Installing "tmux-floax"
+[2024-06-15 03:20:15.491]	 Installing "tmux-fzf"
+[2024-06-15 03:20:15.491]	 Installing "tmux-fzf-url"
+[2024-06-15 03:20:15.492]	 Installing "tmux-thumbs"
+[2024-06-15 03:20:16.431]	   "tmux-sensible" download success
+[2024-06-15 03:20:16.455]	   "tmux-continuum" download success
+[2024-06-15 03:20:16.460]	   "tmux-thumbs" download success
+[2024-06-15 03:20:16.464]	   "tmux-fzf-url" download success
+[2024-06-15 03:20:16.465]	   "tmux-fzf" download success
+[2024-06-15 03:20:16.486]	   "tmux-yank" download success
+[2024-06-15 03:20:16.555]	   "tmux-sessionx" download success
+[2024-06-15 03:20:16.773]	   "catppuccin-tmux" download success
+[2024-06-15 03:20:17.015]	   "tmux-floax" download success
+[2024-06-15 03:20:17.570]	   "tmux-resurrect" download success
+[2024-06-15 03:20:17.585]	 Done.
+
+[2024-06-15 03:20:29.816]	 List of discovered tpm plugins: 
+[2024-06-15 03:20:29.828]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-15 03:20:29.858]	 Already installed "tpm"
+[2024-06-15 03:20:29.859]	 Already installed "tmux-resurrect"
+[2024-06-15 03:20:29.859]	 Already installed "tmux-sensible"
+[2024-06-15 03:20:29.861]	 Already installed "tmux-thumbs"
+[2024-06-15 03:20:29.861]	 Already installed "tmux-fzf-url"
+[2024-06-15 03:20:29.861]	 Already installed "tmux-yank"
+[2024-06-15 03:20:29.861]	 Already installed "tmux-floax"
+[2024-06-15 03:20:29.862]	 Already installed "catppuccin-tmux"
+[2024-06-15 03:20:29.862]	 Already installed "tmux-fzf"
+[2024-06-15 03:20:29.862]	 Already installed "tmux-continuum"
+[2024-06-15 03:20:29.863]	 Already installed "tmux-sessionx"
+[2024-06-15 03:20:29.876]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-15 03:20:30.132]	 List of discovered tpm plugins: 
+[2024-06-15 03:20:30.144]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-15 03:20:30.174]	 Already installed "tmux-sensible"
+[2024-06-15 03:20:30.175]	 Already installed "tpm"
+[2024-06-15 03:20:30.175]	 Already installed "tmux-resurrect"
+[2024-06-15 03:20:30.176]	 Already installed "tmux-thumbs"
+[2024-06-15 03:20:30.177]	 Already installed "tmux-yank"
+[2024-06-15 03:20:30.177]	 Already installed "tmux-continuum"
+[2024-06-15 03:20:30.177]	 Already installed "tmux-fzf"
+[2024-06-15 03:20:30.178]	 Already installed "tmux-sessionx"
+[2024-06-15 03:20:30.178]	 Already installed "tmux-floax"
+[2024-06-15 03:20:30.179]	 Already installed "tmux-fzf-url"
+[2024-06-15 03:20:30.179]	 Already installed "catppuccin-tmux"
+[2024-06-15 03:20:30.193]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-15 03:20:30.206]	 Updating all plugins!
+[2024-06-15 03:20:30.206]	 
+[2024-06-15 03:20:30.856]	   "tpm" update fail
+[2024-06-15 03:20:30.857]	     | Already up to date.
+[2024-06-15 03:20:30.857]	     | fatal: Unable to find current revision in submodule path 'lib/tmux-test'
+[2024-06-15 03:20:30.924]	   "tmux-yank" update success
+[2024-06-15 03:20:30.925]	   "tmux-continuum" update success
+[2024-06-15 03:20:30.927]	     | Already up to date.
+[2024-06-15 03:20:30.928]	     | Already up to date.
+[2024-06-15 03:20:30.935]	   "tmux-floax" update success
+[2024-06-15 03:20:30.938]	     | Already up to date.
+[2024-06-15 03:20:30.954]	   "tmux-thumbs" update success
+[2024-06-15 03:20:30.956]	   "tmux-sensible" update success
+[2024-06-15 03:20:30.956]	     | Already up to date.
+[2024-06-15 03:20:30.958]	     | Already up to date.
+[2024-06-15 03:20:30.973]	   "catppuccin-tmux" update success
+[2024-06-15 03:20:30.973]	   "tmux-sessionx" update success
+[2024-06-15 03:20:30.975]	     | Already up to date.
+[2024-06-15 03:20:30.975]	     | Already up to date.
+[2024-06-15 03:20:30.990]	   "tmux-fzf-url" update success
+[2024-06-15 03:20:30.992]	     | Already up to date.
+[2024-06-15 03:20:30.993]	   "tmux-fzf" update success
+[2024-06-15 03:20:30.995]	     | Already up to date.
+[2024-06-15 03:20:31.000]	   "tmux-resurrect" update success
+[2024-06-15 03:20:31.002]	     | Already up to date.
+[2024-06-15 03:20:31.020]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-15 03:20:31.089]	 Done.
+
+[2024-06-15 03:20:29.890]	 Updating all plugins!
+[2024-06-15 03:20:29.890]	 
+[2024-06-15 03:20:30.702]	   "tmux-sensible" update success
+[2024-06-15 03:20:30.709]	     | Already up to date.
+[2024-06-15 03:20:30.762]	   "tmux-continuum" update success
+[2024-06-15 03:20:30.765]	     | Already up to date.
+[2024-06-15 03:20:30.775]	   "tmux-resurrect" update success
+[2024-06-15 03:20:30.778]	     | Already up to date.
+[2024-06-15 03:20:30.782]	   "tmux-thumbs" update success
+[2024-06-15 03:20:30.784]	     | Already up to date.
+[2024-06-15 03:20:30.785]	   "tmux-fzf-url" update success
+[2024-06-15 03:20:30.787]	     | Already up to date.
+[2024-06-15 03:20:30.788]	   "tmux-sessionx" update success
+[2024-06-15 03:20:30.790]	     | Already up to date.
+[2024-06-15 03:20:30.790]	   "tmux-fzf" update success
+[2024-06-15 03:20:30.792]	     | Already up to date.
+[2024-06-15 03:20:30.800]	   "tmux-floax" update success
+[2024-06-15 03:20:30.802]	     | Already up to date.
+[2024-06-15 03:20:30.802]	   "tmux-yank" update success
+[2024-06-15 03:20:30.804]	   "catppuccin-tmux" update success
+[2024-06-15 03:20:30.804]	     | Already up to date.
+[2024-06-15 03:20:30.805]	     | Already up to date.
+[2024-06-15 03:20:33.643]	   "tpm" update success
+[2024-06-15 03:20:33.645]	     | Already up to date.
+[2024-06-15 03:20:33.645]	     | Submodule 'lib/tmux-test' (https://github.com/tmux-plugins/tmux-test.git) registered for path 'lib/tmux-test'
+[2024-06-15 03:20:33.645]	     | Cloning into '/home/kamal/.tmux/plugins/tpm/lib/tmux-test'...
+[2024-06-15 03:20:33.645]	     | From https://github.com/tmux-plugins/tmux-test
+[2024-06-15 03:20:33.645]	     |  * branch            33fa65fbfb72ba6dd106c21bf5ee6cc353ecdbb6 -> FETCH_HEAD
+[2024-06-15 03:20:33.645]	     | Submodule path 'lib/tmux-test': checked out '33fa65fbfb72ba6dd106c21bf5ee6cc353ecdbb6'
+[2024-06-15 03:20:33.659]	 Invoking /home/kamal/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-15 03:20:33.708]	 Done.
+
