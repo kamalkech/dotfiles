@@ -20,14 +20,8 @@ return {
       autotag = {
         enable = true,
       },
-
-      sync_install = false,
-      auto_install = true,
-      ignore_install = {},
-      modules = {},
       -- ensure these language parsers are installed
       ensure_installed = {
-        "go",
         "json",
         "javascript",
         "typescript",

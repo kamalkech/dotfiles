@@ -9,7 +9,6 @@ return {
   config = function()
     -- import lspconfig plugin
     local lspconfig = require("lspconfig")
-    local util = require("lspconfig/util")
 
     -- import mason_lspconfig plugin
     local mason_lspconfig = require("mason-lspconfig")
@@ -105,24 +104,14 @@ return {
         -- configure graphql language server
         lspconfig["graphql"].setup({
           capabilities = capabilities,
-          filetypes = { "graphql", "gql", "svelte", "typescriptreact", "javascriptreact", "htmlangular" },
+          filetypes = { "graphql", "gql", "svelte", "typescriptreact", "javascriptreact" },
         })
       end,
       ["emmet_ls"] = function()
         -- configure emmet language server
         lspconfig["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = {
-            "html",
-            "typescriptreact",
-            "javascriptreact",
-            "css",
-            "sass",
-            "scss",
-            "less",
-            "svelte",
-            "htmlangular",
-          },
+          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
         })
       end,
       ["lua_ls"] = function()
@@ -142,33 +131,7 @@ return {
           },
         })
       end,
-      ["gopls"] = function()
-        -- configure lua server (with special settings)
-        lspconfig["gopls"].setup({
-          capabilities = capabilities,
-          filetypes = { "go", "gomod", "gowork", "gotmpl" },
-          root_dir = util.root_pattern("go.work", "go.mod", ".git"),
-          settings = {
-            gopls = {
-              completeUnimported = true,
-              usePlaceholders = true,
-              analyses = {
-                unusedparams = true,
-              },
-            },
-          },
-        })
-      end,
-      ["elixirls"] = function()
-        -- configure elixir language server
-        lspconfig["elixirls"].setup({
-          capabilities = capabilities,
-          filetypes = {
-            "ex",
-            "exs",
-          },
-        })
-      end,
     })
   end,
 }
+

@@ -20,8 +20,6 @@ return {
         liquid = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" },
-        elixir = { "mix_format" },
-        go = { "goimports" }, -- ???
       },
       format_on_save = {
         lsp_fallback = true,

@@ -1,9 +1,11 @@
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
+  -- branch = "0.1.6",
   dependencies = {
     "nvim-lua/plenary.nvim",
     { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
+    -- { 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' },
     "nvim-tree/nvim-web-devicons",
     "folke/todo-comments.nvim",
   },
@@ -13,7 +15,7 @@ return {
     local transform_mod = require("telescope.actions.mt").transform_mod
 
     local trouble = require("trouble")
-    local trouble_telescope = require("trouble.providers.telescope")
+    -- local trouble_telescope = require("trouble.providers.telescope")
     local trouble_sources_telescope = require("trouble.sources.telescope")
 
     -- or create your custom action
@@ -32,7 +34,6 @@ return {
             ["<C-j>"] = actions.move_selection_next, -- move to next result
             ["<C-q>"] = actions.send_selected_to_qflist + custom_actions.open_trouble_qflist,
             ["<C-t>"] = trouble_sources_telescope.open,
-            -- ["<C-t>"] = trouble_telescope.smart_open_with_trouble,
           },
         },
       },
